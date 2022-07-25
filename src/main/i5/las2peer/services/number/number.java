@@ -45,7 +45,7 @@ import java.util.Map;
  * outsourced to (imported) classes.
  *
  */
-@ServicePath("")
+@ServicePath("/")
 @ManualDeployment
 public class number extends RESTService {
 
@@ -71,9 +71,9 @@ public class number extends RESTService {
 
   @Api
   @SwaggerDefinition(
-      info = @Info(title = "209", version = "$Metadata_Version$",
-          description = "$Metadata_Description$",
-          termsOfService = "$Metadata_Terms$",
+      info = @Info(title = "209", version = "",
+          description = "",
+          termsOfService = "",
           contact = @Contact(name = "David", email = "CAEAddress@gmail.com") ,
           license = @License(name = "BSD",
               url = "https://github.com/CAE-Community-Application-Editor/microservice-209/blob/master/LICENSE.txt") ) )
