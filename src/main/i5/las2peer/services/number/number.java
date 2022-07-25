@@ -116,7 +116,7 @@ public class number extends RESTService {
     // number
     boolean number_condition = true;
     if(number_condition) {
-      String number = "Some String";
+      String number = "My string";
 
       
 
