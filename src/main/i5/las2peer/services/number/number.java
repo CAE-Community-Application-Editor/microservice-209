@@ -45,7 +45,7 @@ import java.util.Map;
  * outsourced to (imported) classes.
  *
  */
-@ServicePath("/")
+@ServicePath("test")
 @ManualDeployment
 public class number extends RESTService {
 
